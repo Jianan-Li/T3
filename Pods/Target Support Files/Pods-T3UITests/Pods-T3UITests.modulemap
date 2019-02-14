@@ -1,0 +1,6 @@
+framework module Pods_T3UITests {
+  umbrella header "Pods-T3UITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
