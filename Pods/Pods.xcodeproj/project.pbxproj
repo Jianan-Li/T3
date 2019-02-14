@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -52,10 +52,10 @@
 /* Begin PBXFileReference section */
 		0093B1A3118F0BD749911749BA40152E /* Pods-T3UITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-T3UITests-dummy.m"; sourceTree = "<group>"; };
 		02E39BF6210374667B5C1FCBD627BDA4 /* Pods-T3-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-T3-umbrella.h"; sourceTree = "<group>"; };
-		099CEE46C1FA8C3510671B0334AC0550 /* Pods_T3UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_T3UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		099CEE46C1FA8C3510671B0334AC0550 /* Pods_T3UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_T3UITests.framework; path = "Pods-T3UITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		15F46FF63BD6F9B6631C8CDBA15E840E /* Pods-T3-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-T3-acknowledgements.plist"; sourceTree = "<group>"; };
 		186D99BCDDA3D24CE6C8E4611698F2CA /* Pods-T3Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-T3Tests-resources.sh"; sourceTree = "<group>"; };
-		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2641217FDED3BB491CCE78563433FECD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		274CA21A1481AB85F2ED9A6DC9E71657 /* TouchView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TouchView.swift; path = TouchVisualizer/TouchView.swift; sourceTree = "<group>"; };
 		2CE3F26017EF42C2C4AC2EB8AD4F5C20 /* Pods-T3-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-T3-dummy.m"; sourceTree = "<group>"; };
@@ -68,7 +68,7 @@
 		56EE9F52CD1D120F2145BBDB803505AC /* Visualizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Visualizer.swift; path = TouchVisualizer/Visualizer.swift; sourceTree = "<group>"; };
 		59D7461D3FC8C668185079327D2EA3EE /* Pods-T3UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-T3UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		5A7DD1B6E1CFC6FEC61FBE0FE507E29E /* Pods-T3Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-T3Tests-umbrella.h"; sourceTree = "<group>"; };
-		5B4E5560D383BA072F0D4F311585BD50 /* Pods_T3Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_T3Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B4E5560D383BA072F0D4F311585BD50 /* Pods_T3Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_T3Tests.framework; path = "Pods-T3Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EC333431523A8ABA4262A32BF9448C9 /* Pods-T3UITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-T3UITests-resources.sh"; sourceTree = "<group>"; };
 		60019E90AE2CF219EDCDE053143805FE /* TouchVisualizer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TouchVisualizer.xcconfig; sourceTree = "<group>"; };
 		632BF85691CEF38D140FA052B0364FCB /* Pods-T3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-T3.release.xcconfig"; sourceTree = "<group>"; };
@@ -76,7 +76,7 @@
 		6E4456D165313429D6AE4FDF17A81962 /* Pods-T3UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-T3UITests.release.xcconfig"; sourceTree = "<group>"; };
 		6F4B121BD361CDF4EED119A70E1D191D /* Pods-T3Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-T3Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		72893CDCF7E764FF045372CFDE9F6290 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		73A509B9800A99C3ED82DE2009848B39 /* TouchVisualizer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TouchVisualizer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73A509B9800A99C3ED82DE2009848B39 /* TouchVisualizer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TouchVisualizer.framework; path = TouchVisualizer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E5E3854FE964EDD4A874E050372531E /* Pods-T3Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-T3Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		8412D1663C7CB38DC07256B1CD15CD75 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E70CC5CEC06E42052778DE6ACC7B4B8 /* TouchVisualizer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TouchVisualizer-prefix.pch"; sourceTree = "<group>"; };
@@ -88,7 +88,7 @@
 		A906D1117D69AB5730BDEA667E6588A7 /* TouchVisualizer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TouchVisualizer-dummy.m"; sourceTree = "<group>"; };
 		A9E696FC20A81A586D642D8DCA62224D /* Pods-T3-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-T3-acknowledgements.markdown"; sourceTree = "<group>"; };
 		BA8EB743D6FECB9A4D1A1BFCF85FCA23 /* Pods-T3Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-T3Tests-frameworks.sh"; sourceTree = "<group>"; };
-		BB31DBDD0088531DB9599643044A565C /* Pods_T3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_T3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB31DBDD0088531DB9599643044A565C /* Pods_T3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_T3.framework; path = "Pods-T3.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CEB98CF8C95A6FCC1A90184B46CBFF0D /* Pods-T3Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-T3Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D6FF1B4C06DB602DD6AC162F8FF0C18F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -161,6 +161,7 @@
 				56EE9F52CD1D120F2145BBDB803505AC /* Visualizer.swift */,
 				4C0750BE0C24EB5089B550A0DBC53933 /* Support Files */,
 			);
+			name = TouchVisualizer;
 			path = TouchVisualizer;
 			sourceTree = "<group>";
 		};
@@ -398,7 +399,6 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = AA221A2CD4056CC3BC41A7DA340F5B23 /* Products */;
@@ -523,7 +523,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-T3/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-T3/Pods-T3.modulemap";
 				OTHER_LDFLAGS = "";
@@ -557,7 +561,11 @@
 				INFOPLIST_FILE = "Target Support Files/TouchVisualizer/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/TouchVisualizer/TouchVisualizer.modulemap";
 				PRODUCT_MODULE_NAME = TouchVisualizer;
 				PRODUCT_NAME = TouchVisualizer;
@@ -589,7 +597,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-T3Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-T3Tests/Pods-T3Tests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -623,7 +635,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-T3UITests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-T3UITests/Pods-T3UITests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -657,7 +673,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-T3UITests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-T3UITests/Pods-T3UITests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -691,7 +711,11 @@
 				INFOPLIST_FILE = "Target Support Files/TouchVisualizer/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/TouchVisualizer/TouchVisualizer.modulemap";
 				PRODUCT_MODULE_NAME = TouchVisualizer;
 				PRODUCT_NAME = TouchVisualizer;
@@ -790,7 +814,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-T3Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-T3Tests/Pods-T3Tests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -825,7 +853,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-T3/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-T3/Pods-T3.modulemap";
 				OTHER_LDFLAGS = "";
@@ -896,7 +928,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};

@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import tictactoe
+@testable import T3
 
 class tictactoeTests: XCTestCase {
 
